@@ -1,0 +1,47 @@
+body{
+background-image: radial-gradient(circle at 9.44% -7.92%, #212e5f 0, #2b2c5d 25%, #332a5b 50%, #3a2858 75%, #402655 100%);
+}
+.main-navbar{
+  height: 70px;
+  width: 60%;
+  position: absolute;
+  left: 20%;
+}
+.main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 9%;
+  overflow: hidden;
+  background-image: radial-gradient(circle at 9.44% -7.92%, #000325 0, #000224 25%, #060023 50%, #0c0022 75%, #110020 100%);
+  border-radius: 10px;
+}
+
+.main-navbar li {
+  float: left;
+  padding-left:7%;
+}
+
+.main-navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.main-navbar li a:hover {
+  background-image: radial-gradient(circle at 9.44% -7.92%, #768ef3 0, #878af0 25%, #9786eb 50%, #a582e6 75%, #b17edf 100%);
+  border-radius: 10px;
+}
+
+.main-page-title h1{
+  position:absolute;
+  left: 20%;
+  top:70px;
+  font-style: normal;
+  font-family:sans-serif;
+  font-size: 43px;
+}
